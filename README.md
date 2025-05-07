@@ -14,7 +14,7 @@ Before you begin work on this task, please follow these steps:
 
 ## Overview
 
-Build a fully local, real-time speech-to-text application in **Rust** that captures audio from the user’s microphone and transcribes it on-the-fly using either:
+Build a fully local, real-time speech-to-text application in **Rust** that captures audio from the user’s microphone and transcribes it on-the-fly. You can use one of the recommended libraries or one of your choosing. We recommend:
 
 * **Whisper** (via a Rust binding such as `whisper-rs` or `whisper.cpp`), or
 * A Kaldi-based engine (e.g., via the `vosk` Rust crate).
